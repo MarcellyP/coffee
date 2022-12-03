@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: black;
+}
+
+.div-principal {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.logo {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: 434px;
+}
+
+.img2{
+    position: absolute;
+    margin-left: 900px;
+}
+
+.list {
+   color: whitesmoke; 
+   display: flex;
+   position: absolute;
+   margin-left: 455px;
+   margin-top: 65px;
+}
+li{
+    list-style: none;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.input-coffe {
+    position: absolute;
+    margin-left: 1100px;
+    border: 1px solid #8257E5;
+    border-radius: 10px;
+    width: 205px;
+    height: 45px;
+    color: white;
+    margin-top: 50px;
+}
+
+.input-coffe p {
+    margin-top: 15px;
+    margin-left: 46px;
+    cursor: pointer;
+}
+.title {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 410px;
+    font-size: 50px;
+}
+
+.sem-stroke {
+    margin-left: 80px;
+    color: white;
+}
+.stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8257E5;
+}
+
+.img-coffee img {
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 508px;
+    width: 1000px;
+}
+.menu-ambur{
+    display: none;
+}
+.h1-solo {
+    display: none;
+}
+.logo-mobile{
+    display: none;
+}
+.img-fundo-mobile img{
+    display: none;
+}
+.barra-mobile{
+    display: none;
+}
+.close{
+    display: none;
+}
+@media (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+    .title {
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .sem-stroke {
+        margin-left: 46px;
+        color: white;
+    }
+    .input-coffe {
+        position: absolute;
+        margin-left: 140px;
+        border: 1px solid #8257E5;
+        border-radius: 10px;
+        width: 205px;
+        height: 45px;
+        color: white;
+        margin-top: 413px;
+    }
+    .h1-solo {
+        display: block;
+        position: absolute;
+        color: white;
+        max-width: 389px;
+        font-size: 39px;
+        margin-top: 245px;
+        margin-left: 50px;
+        text-align: -webkit-center;
+    }
+    .img-coffee img {
+        position: absolute;
+        margin-left: -4px;
+        margin-top: 736px;
+        width: 536px;
+    }
+    .menu-ambur{
+        display: block;
+       position: absolute;
+       margin-top: 40px;
+       margin-left: 430px;
+    }
+    .img1 {
+        display: none;
+    }
+    
+    .img2{
+       display: none;
+    }
+    .logo-mobile{
+        display: block;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .img-fundo-mobile img{
+        display: block;
+        position: absolute;
+        margin-top: 280px;
+        width: 500px;
+    }
+    .barra-mobile {
+        display: block;
+        position: absolute;
+        border-bottom: 1px solid rgb(31, 31, 31);
+        width: 498px;
+        margin-top: 90px;
+    }
+    .list.ativo {
+        display: block;
+        position: absolute;
+        background: rgb(0, 0, 0);
+        border:1px solid #8257E5;
+        width: 184px;
+        height: 170px;
+        margin-top: 60px;
+        margin-left: 294px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .list.ativo li {
+        margin-top: 15px;
+        margin-left: -33px;
+    }
+}   
+
+
+
+
